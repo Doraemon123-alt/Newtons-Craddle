@@ -32,11 +32,11 @@ function setup() {
 
 	roof=new Roof(400,100,300,50)
 
-	rope1=new Rope(bob1.body,roof.body,-bobDiameter*2,0)
-	rope2=new Rope(bob2.body,roof.body,-bobDiameter*1,0)
-	rope3=new Rope(bob3.body,roof.body,-bobDiameter*0,0)
-	rope4=new Rope(bob4.body,roof.body,bobDiameter*1,0)
-	rope5=new Rope(bob5.body,roof.body,bobDiameter*2,0)
+	rope1=new Rope(bob1.body,roof.body,-bobDiameter*3,0)
+	rope2=new Rope(bob2.body,roof.body,-bobDiameter*2,0)
+	rope3=new Rope(bob3.body,roof.body,-bobDiameter*1,0)
+	rope4=new Rope(bob4.body,roof.body,bobDiameter*0,0)
+	rope5=new Rope(bob5.body,roof.body,bobDiameter*1,0)
 	
 
 	Engine.run(engine);
