@@ -6,7 +6,7 @@ class Bob {
           inertia:Infinity,
           frictionAir:0.0 
       }
-      this.body = Bodies.rectangle(x, y,40,40,options);
+      this.body = Bodies.rectangle(x, y,50,50,options);
       this.x=x;
       this.y=y;
      
@@ -21,7 +21,7 @@ class Bob {
       rotate(angle);
       noStroke();
       fill("yellow");
-      ellipse(0, 0,60,60);
+      ellipse(0, 0,50,50);
       pop();
     }
   }
