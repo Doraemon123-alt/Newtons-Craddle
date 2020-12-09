@@ -1,7 +1,7 @@
 class Bob {
     constructor(x, y) {
       var options = {
-          restitution:1,
+          restitution:0,
           friction:0,
           inertia:Infinity,
           frictionAir:0.0 
