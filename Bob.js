@@ -6,7 +6,7 @@ class Bob {
           inertia:Infinity,
           frictionAir:0.0 
       }
-      this.body = Bodies.rectangle(x, y,60,60,options);
+      this.body = Bodies.rectangle(x, y,40,40,options);
       this.x=x;
       this.y=y;
      
